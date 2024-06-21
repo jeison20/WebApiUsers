@@ -42,61 +42,6 @@ Configuración del Proyecto
 Clonar el repositorio:
 https://github.com/jeison20/WebApiUsers.git
 
-Estructura de Directorios
-
-WebAppUsers/
-├── API/
-│   ├── Controllers/
-│   ├── Program.cs
-│   └── appsettings.json
-├── Core/
-│   ├── Application/
-│       └── UseCases/
-│           └── UserInformationApplication
-│       └── Ports/
-│            └── Primary
-│                 └── ICheckInformationPrimaryPort
-│                 └── IUserInformationPrimaryPort
-│            └── Secundary
-│                 └── ICheckInformationSecundaryPort
-│                 └── IUserInformationSecundaryPort
-│       └── DependencyContainer
-│       └── MapperConfig
-│   ├── Domain/
-│       └── DTOs/
-│           └── ResponseDto.cs
-│           └── CreateUserDto.cs
-│           └── UpdateUserDto.cs
-│           └── UserInformationDto.cs
-│           └── CreateUserDto.cs
-│       └── POCOs/
-│           └── User.cs
-│       └── Interfaces/
-│            └── ICheckWeatherInformation.cs
-│       └── Services/
-│            └── IUserRepository.cs
-│       └── MapperConfig.cs
-│       └── DependencyContainer.cs
-├── Infrastructure/
-│   ├── EFCore/
-│      └── DataContext
-│          └── WebApiContext
-│      └── Implements
-│          └── CreateUserSecundaryPort
-│      └── Migrations/
-│          └── 20240209140614_initialmigration.cs
-│      └── DependencyContainer
-│   ├── Services/
-│       └── Services
-│           └── NewsService
-│           └── WeatherService
-├── Dockerfile
-└── docker-compose.yml
-
-Uso
-Endpoints de la API
-GET /api/users: Obtiene todos los usuarios.
-
 
 Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo LICENSE para más detalles.

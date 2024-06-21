@@ -1,4 +1,4 @@
-#WebAppUsers
+WebAppUsers
 
 Descripción del Proyecto
 Este proyecto fue creado con la finalidad de mostrar los beneficios de la arquitectura hexagonal ademas de mostrar que aunque estoy en capacidad de realizar 
@@ -27,12 +27,14 @@ Infrastructure: Contiene la implementación de repositorios y la configuración 
 
 Beneficios de la Arquitectura Hexagonal
 
-Separación de Preocupaciones: La arquitectura hexagonal permite separar claramente la lógica de negocio de la infraestructura y los mecanismos de entrega (interfaces de usuario, APIs).
-Alta Cohesión y Bajo Acoplamiento: Los componentes están altamente cohesionados y tienen bajo acoplamiento, lo que facilita el mantenimiento y la escalabilidad.
-Facilidad para el Testing: Al separar la lógica de negocio de los detalles de implementación, es más sencillo escribir pruebas unitarias y de integración.
-Flexibilidad y Extensibilidad: Es fácil cambiar o añadir nuevas funcionalidades sin afectar otras partes del sistema, gracias a la clara definición de las interfaces.
-Reutilización de Código: La lógica de negocio puede ser reutilizada por diferentes mecanismos de entrega (por ejemplo, una API y una interfaz de usuario).
+* Separación de Preocupaciones: La arquitectura hexagonal permite separar claramente la lógica de negocio de la infraestructura y los mecanismos de entrega (interfaces de usuario, APIs).
+* Alta Cohesión y Bajo Acoplamiento: Los componentes están altamente cohesionados y tienen bajo acoplamiento, lo que facilita el mantenimiento y la escalabilidad.
+* Facilidad para el Testing: Al separar la lógica de negocio de los detalles de implementación, es más sencillo escribir pruebas unitarias y de integración.
+* Flexibilidad y Extensibilidad: Es fácil cambiar o añadir nuevas funcionalidades sin afectar otras partes del sistema, gracias a la clara definición de las interfaces.
+* Reutilización de Código: La lógica de negocio puede ser reutilizada por diferentes mecanismos de entrega (por ejemplo, una API y una interfaz de usuario).
+
 Instalación y Ejecución
+
 Requisitos Previos
 .NET Core 8 SDK
 Docker
